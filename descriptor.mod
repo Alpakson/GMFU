@@ -1,11 +1,19 @@
-version="1.0"
-dependencies={
-	"Their Finest Bruh (TFB) "
-}
+version="1.17.3.0"
 tags={
-	"Fixes"
+	"Balance"
+	"Events"
+	"Gameplay"
+	"Historical"
+	"National Focuses"
+	"Technologies"
 }
 name="GMFU"
 picture="thumbnail.png"
-supported_version="1.17.*"
+replace_path="common/ai_equipment"
+replace_path="common/ai_strategy"
+replace_path="common/ai_strategy_plans"
+replace_path="common/ai_templates"
+replace_path="gfx/interface/equipmentdesigner/tanks/designer"
+replace_path="history/countries"
+supported_version="1.17.3.0"
 remote_file_id="3169027191"
