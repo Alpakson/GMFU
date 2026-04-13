@@ -34,7 +34,7 @@ technologies = {
 			hidden_effect = { set_technology = { light_basic_dup_tech = 1 popup = no } }
 			hidden_effect = { set_technology = { light_2_dup_tech = 1 popup = no } }
 			hidden_effect = { set_technology = { medium_basic_dup_tech = 1 popup = no } }
-			#hidden_effect = { create_variants_for_tank_chassi_p1 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p1 = yes }
 		}
 
 		path = {
@@ -54,7 +54,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = ger_armour_folder
-			position = { x = -6 y = 0 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
@@ -90,7 +90,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_p2 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p2 = yes }
 		}
 		
 		categories = {
@@ -118,7 +118,7 @@ technologies = {
 
 		on_research_complete = {
 			hidden_effect = { set_technology = { light_3_dup_tech = 1 popup = no } }
-			#hidden_effect = { create_variants_for_tank_chassi_luchs = yes }
+			hidden_effect = { create_variants_for_tank_chassi_luchs = yes }
 		}
 		
 		research_cost = 2.0
@@ -176,7 +176,7 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = ger_cze_tank_equipment_1_short_tt
-			#hidden_effect = { create_variants_for_tank_chassi_p35 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p35 = yes }
 		}
 		ai_will_do = {
 			factor = 0
@@ -211,7 +211,7 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = ger_cze_tank_equipment_1_short_tt
-			#hidden_effect = { create_variants_for_tank_chassi_p38 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p38 = yes }
 		}
 		
 		ai_will_do = {
@@ -225,6 +225,37 @@ technologies = {
 
 		enable_equipments = {
 			ger_light_tank_chassis_hetzer
+		}
+		
+		research_cost = 2.0
+		start_year = 1943
+		folder = {
+			name = ger_armour_folder
+			position = { x = 12 y = 14 }
+		}
+		
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = ger_cze_tank_equipment_2_short_tt
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	rom_cze_tank_3 = { 
+
+		enable_equipments = {
+			rom_light_tank_chassis_hetzer
 		}
 		
 		research_cost = 2.0
@@ -269,7 +300,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = ger_armour_folder
-			position = { x = 0 y = 2 }
+			position = { x = -2 y = 2 }
 		}
 		
 		categories = {
@@ -280,7 +311,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_p3 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p3 = yes }
 		}
 		
 		ai_will_do = {
@@ -302,10 +333,10 @@ technologies = {
 		}
 		
 		research_cost = 2.0
-		start_year = 1938
+		start_year = 1936
 		folder = {
 			name = ger_armour_folder
-			position = { x = 0 y = 4 }
+			position = { x = 2 y = 2 }
 		}
 		
 		categories = {
@@ -316,7 +347,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_p4 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p4 = yes }
 		}
 		
 		ai_will_do = {
@@ -339,22 +370,21 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = { set_technology = { medium_2_dup_tech = 1 popup = no } }
 		}
-		show_effect_as_desc = yes
 
 		path = {
 			leads_to_tech = ger_p34_tank_3
 			research_cost_coeff = 1
 		}
-		# path = {
-		# 	leads_to_tech = ger_p5_tank_1
-		# 	research_cost_coeff = 1
-		# }
+		path = {
+			leads_to_tech = ger_p5_tank_1
+			research_cost_coeff = 1
+		}
 		
-		research_cost = 2.0
-		start_year = 1939
+		research_cost = 1.0
+		start_year = 1940
 		folder = {
 			name = ger_armour_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 8 }
 		}
 		
 		categories = {
@@ -381,17 +411,12 @@ technologies = {
 			custom_effect_tooltip = p34_upgrade_2_tt
 		}
 		show_effect_as_desc = yes
-
-		path = {
-			leads_to_tech = ger_p5_tank_1
-			research_cost_coeff = 1
-		}
 		
-		research_cost = 2.0
+		research_cost = 1.0
 		start_year = 1942
 		folder = {
 			name = ger_armour_folder
-			position = { x = 0 y = 12 }
+			position = { x = -1 y = 12 }
 		}
 		
 		categories = {
@@ -428,11 +453,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.0
+		research_cost = 3.0
 		start_year = 1943
 		folder = {
 			name = ger_armour_folder
-			position = { x = 0 y = 14 }
+			position = { x = 1 y = 14 }
 		}
 		
 		categories = {
@@ -443,7 +468,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_p5 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p5 = yes }
 		}
 		
 		ai_will_do = {
@@ -466,7 +491,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = ger_armour_folder
-			position = { x = 0 y = 18 }
+			position = { x = 1 y = 18 }
 		}
 		
 		categories = {
@@ -477,7 +502,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_e50 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_e50 = yes }
 		}
 		
 		ai_will_do = {
@@ -515,7 +540,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_neubaufahrzeug = yes }
+			hidden_effect = { create_variants_for_tank_chassi_neubaufahrzeug = yes }
 		}
 		
 		ai_will_do = {
@@ -545,7 +570,7 @@ technologies = {
 		# 	research_cost_coeff = 1
 		# }
 		
-		research_cost = 2.5
+		research_cost = 3
 		start_year = 1941
 		folder = {
 			name = ger_armour_folder
@@ -560,7 +585,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_p6 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p6 = yes }
 		}
 		
 		ai_will_do = {
@@ -631,7 +656,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_p6_b = yes }
+			hidden_effect = { create_variants_for_tank_chassi_p6_b = yes }
 		}
 		
 		ai_will_do = {
@@ -665,7 +690,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			#hidden_effect = { create_variants_for_tank_chassi_e100 = yes }
+			hidden_effect = { create_variants_for_tank_chassi_e100 = yes }
 		}
 		
 		ai_will_do = {
