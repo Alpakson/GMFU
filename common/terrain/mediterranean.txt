@@ -15,30 +15,7 @@ categories =  {
 		submarine = {
 			navy_visibility = 1.0
 		}
-		battle_cruiser = {
-			units = {
-				attack = 0.1
-				movement = 0.1
-				defence = 0.1
-			}
-			navy_fuel_consumption_factor = -0.2
-		}
-		battleship = {
-			units = {
-				attack = 0.1
-				movement = 0.1
-				defence = 0.1
-			}
-			navy_fuel_consumption_factor = -0.2
-		}
-		sh_battleship = {
-			units = {
-				attack = 0.1
-				movement = 0.1
-				defence = 0.1
-			}
-			navy_fuel_consumption_factor = -0.2
-		}
+
 
 		positioning = -0.05
 		# naval_mine_hit_chance = 0.25
@@ -55,30 +32,7 @@ categories =  {
 		submarine = {
 			navy_visibility = 1.0
 		}
-		battle_cruiser = {
-			units = {
-				attack = 0.1
-				movement = 0.1
-				defence = 0.1
-			}
-			navy_fuel_consumption_factor = -0.2
-		}
-		battleship = {
-			units = {
-				attack = 0.1
-				movement = 0.1
-				defence = 0.1
-			}
-			navy_fuel_consumption_factor = -0.2
-		}
-		sh_battleship = {
-			units = {
-				attack = 0.1
-				movement = 0.1
-				defence = 0.1
-			}
-			navy_fuel_consumption_factor = -0.2
-		}
+
 
 		positioning = -0.05
 		# naval_mine_hit_chance = 0.25
