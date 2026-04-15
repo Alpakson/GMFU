@@ -993,22 +993,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			682 = {
+			276 = {
 				add_resource = {
 					type = aluminium
-					amount = 200
-				}
-			}
-			466 = {
-				add_resource = {
-					type = aluminium
-					amount = 100
-				}
-			}
-			468 = {
-				add_resource = {
-					type = aluminium
-					amount = 100
+					amount = 400
 				}
 			}
 		}
