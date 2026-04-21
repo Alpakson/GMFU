@@ -304,7 +304,7 @@ assault_infantry = {
     }
 
     #OTHER BASE REWARDS
-    category_line_artillery = {   
+    category_light_infantry = {   
         soft_attack = 0.03
     }
 
@@ -320,24 +320,16 @@ assault_infantry = {
         }
         organic_battalion_fire_support = {
         #2
-            category_artillery = {
-                soft_attack = 0.03
-            }
-            category_anti_tank = {
-                ap_attack = 0.05
-                hard_attack = 0.05
-            }
             category_anti_air = {
-                air_attack = 0.05
+                air_attack = 0.1
             }
 
         }
 
         integrated_support_batteries = {
         #3
-            category_artillery = {
+            category_light_infantry = {
                 max_organisation = 3
-                soft_attack = 0.03
             }
         }
         breakthrough_fireteams = {
