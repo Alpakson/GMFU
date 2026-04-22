@@ -186,6 +186,15 @@ ideas = {
 
 		}
 
+		SAF_army_xp_bonus = {
+      	  allowed = { always = yes }
+      	  visible = { always = yes }
+
+       	 modifier = {
+           	 army_experience_gain = 0.05
+        	}
+    	}
+
 		SAF_cheap_labor_1 = {
 			allowed = {
 				always = no
@@ -290,6 +299,80 @@ ideas = {
 				autonomy_gain = 0.75
 			}
 		}
+		
+		SAF_special_forces_expansion = {
+
+    	allowed = { always = no }
+
+    	removal_cost = -1
+
+   	 	picture = generic_army_bonus
+
+    	modifier = {
+        	special_forces_cap = 0.15
+        	special_forces_cap_flat = 4
+    	}
+		}
+
+		SAF_mobilize_the_population = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_mobilization
+
+			modifier = {
+				conscription_factor = 0.15
+			}
+		}
+		
+		SAF_mech_motorized_reduction = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_mechanized_motorized_reduction
+
+			equipment_bonus = {
+				mechanized_equipment = { build_cost_ic = -0.05 instant = yes }
+				motorized_equipment = {build_cost_ic = -0.05 instant = yes}
+			}
+		}
+
+		SAF_equipment_reduction = {
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_equipment_reduction
+
+		equipment_bonus = {
+				sf_equipment = { build_cost_ic = -0.075 instant = yes }
+				radio_equipment = {build_cost_ic = -0.05 instant = yes}
+				support_equipment = {build_cost_ic = -0.05  instant = yes}	
+				infantry_equipment = {build_cost_ic = -0.05  instant = yes}
+				artillery_equipment = {build_cost_ic = -0.05  instant = yes}
+				squad_equipment = {build_cost_ic = -0.05  instant = yes}			
+			}
+		}
 
 		SAF_black_volunteers = {
 			allowed = {
@@ -367,6 +450,51 @@ ideas = {
 				planning_speed = 0.05
 			}
 		}
+
+		SAF_division_speed_spirit = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_bonus
+
+			modifier = {
+				army_speed_factor = 0.05
+			}
+		}
+
+		SAF_vehicle_speed_breakthrough_spirit = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_bonus
+
+			equipment_bonus = {
+				mechanized_equipment = {
+					soft_attack = 0.1
+					instant = yes
+				}
+				motorized_equipment = {
+					soft_attack = 0.1
+					instant = yes
+				}
+			}
+			modifier = {
+				army_speed_factor = 0.05
+			}
 
 		SAF_scw_veterans = {
 			allowed = {
@@ -612,6 +740,8 @@ ideas = {
 			}
 		}
 	}
+
+	
 
 	industrial_concern = {
 		SAF_south_african_railways = {
