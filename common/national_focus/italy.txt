@@ -3693,54 +3693,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = ITA_help_barb
-		# icon = GFX_goal_anti_comintern_pact
-		icon = GFX_ITA_intervene_in_the_east
-		prerequisite = { focus = ITA_victory_graecia }
-		x = 1
-		y = 1
-		relative_position_id = ITA_claims_on_france
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			has_idea = ITA_focus_on_our_own_wars
-			has_war_with = SOV
-			has_war_with = USA
-		}
-		available_if_capitulated = yes
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		completion_reward = {
-			# custom_effect_tooltip = ITA_help_barb_tt
-			# custom_effect_tooltip = generic_skip_one_line_tt
-			# IF = {
-			# 	limit = {
-			# 		GER = { surrender_progress > 0 }
-			# 	}
-			# 	swap_ideas = {
-			# 		remove_idea = ITA_focus_on_our_own_wars
-			# 		add_idea = ITA_help_germany_skill_issue
-			# 	} 
-			# }
-			# ELSE_IF = {
-			# 	limit = {
-			# 		GER = { surrender_progress < 99 }
-			# 	}
-			# 	swap_ideas = {
-			# 		remove_idea = ITA_focus_on_our_own_wars
-			# 		add_idea = ITA_help_germany_normal
-			# 	} 
-			# }
-			swap_ideas = {
-				remove_idea = ITA_focus_on_our_own_wars
-				add_idea = ITA_help_germany_normal
-			} 
-		}
-	}
 
 	focus = {
 		id = ITA_victory_dalmatia
@@ -3868,6 +3820,55 @@ focus_tree = {
 		completion_reward = {
 			GER = { country_event = germany.104 }
 			unlock_decision_tooltip = ITA_demand_tunisia			
+		}
+	}
+	
+	focus = {
+		id = ITA_help_barb
+		# icon = GFX_goal_anti_comintern_pact
+		icon = GFX_ITA_intervene_in_the_east
+		prerequisite = { focus = ITA_victory_graecia }
+		x = 1
+		y = 1
+		relative_position_id = ITA_claims_on_france
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_idea = ITA_focus_on_our_own_wars
+			has_war_with = SOV
+			has_war_with = USA
+		}
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			# custom_effect_tooltip = ITA_help_barb_tt
+			# custom_effect_tooltip = generic_skip_one_line_tt
+			# IF = {
+			# 	limit = {
+			# 		GER = { surrender_progress > 0 }
+			# 	}
+			# 	swap_ideas = {
+			# 		remove_idea = ITA_focus_on_our_own_wars
+			# 		add_idea = ITA_help_germany_skill_issue
+			# 	} 
+			# }
+			# ELSE_IF = {
+			# 	limit = {
+			# 		GER = { surrender_progress < 99 }
+			# 	}
+			# 	swap_ideas = {
+			# 		remove_idea = ITA_focus_on_our_own_wars
+			# 		add_idea = ITA_help_germany_normal
+			# 	} 
+			# }
+			swap_ideas = {
+				remove_idea = ITA_focus_on_our_own_wars
+				add_idea = ITA_help_germany_normal
+			} 
 		}
 	}
 
