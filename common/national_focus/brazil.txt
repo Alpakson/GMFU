@@ -7535,7 +7535,7 @@ focus_tree = {
 				}
 			}
 		}
-		will_lead_to_war_with = POR
+		#will_lead_to_war_with = POR
 		available = {
 			any_other_country = {
 				original_tag = POR
@@ -7546,12 +7546,14 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
-			POR = {
-				country_event = {
-					id = JUNO_brazil_events.70
-					hours = 1
-				}
-			}
+			#POR = {
+			#	country_event = {
+			#		id = JUNO_brazil_events.70
+			#		hours = 1
+			#	}
+			#}
+			add_stability = 0.1
+			
 		}
 	}
 
