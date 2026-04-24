@@ -220,60 +220,71 @@
 
 
  #CAPFOCUSSES
- SAF_RWK_capitulated:0 "Capitulated"
- SAF_RWK_capitulated_desc:0 "South Africa has capitulated to the Axis."
- SAF_RWK_reorganizing_the_army:0 "Reorganizing The Army"
- SAF_RWK_reorganizing_the_army_desc:0 "South Africa's army is in disarray after the collapse of the government. A new command structure is being formed to restore order and discipline."
- SAF_RWK_rebuilding_the_civillian_industry:0 "Rebuilding The Civilian Industry"
- SAF_RWK_rebuilding_the_civillian_industry_desc:0 "The civilian economy is in shambles after the collapse of the government. A national effort is underway to rebuild infrastructure, factories, and supply chains."
- SAF_RWK_rebuilding_the_civillian_industry_2:0 "Rebuilding The Civilian Industry II"
- SAF_RWK_rebuilding_the_civillian_industry_2_desc:0 "The civilian economy is in shambles after the collapse of the government. A national effort is underway to rebuild infrastructure, factories, and supply chains."
- SAF_RWK_rebuilding_the_military_industry:0 "Rebuilding The Military Industry"
- SAF_RWK_rebuilding_the_military_industry_desc:0 "The military industry is in shambles after the collapse of the government. A national effort is underway to rebuild arms factories, research facilities, and training centers."
- SAF_RWK_rebuilding_the_military_industry_2:0 "Rebuilding The Military Industry II"
- SAF_RWK_rebuilding_the_military_industry_2_desc:0 "The military industry is in shambles after the collapse of the government. A national effort is underway to rebuild arms factories, research facilities, and training centers."
- 
- SAF_RWK_special_forces:0 "Special Forces"
- SAF_RWK_special_forces_desc:0 "South Africa's special forces are being reconstituted to provide a flexible and elite tool for both defense and offense in the African theater."
- SAF_RWK_improve_doctrine:0 "Improve Doctrine"
- SAF_RWK_improve_doctrine_desc:0 "South Africa's military doctrine is being updated to reflect the realities of modern mechanized warfare and the unique challenges of the African theater."
- SAF_RWK_copy_uk:0 "Copy UK"
- SAF_RWK_copy_uk_desc:0 "South Africa's military is adopting British organizational and doctrinal models as a starting point for rebuilding its forces after the collapse of the government."
- SAF_RWK_copy_germany:0 "Copy Germany"
- SAF_RWK_copy_germany_desc:0 "South Africa's military is adopting German organizational and doctrinal models as a starting point for rebuilding its forces after the collapse of the government."
- SAF_RWK_improve_special_forces:0 "Improve Special Forces"
- SAF_RWK_improve_special_forces_desc:0 "South Africa's special forces are being improved with better training, equipment, and integration into the overall military strategy to enhance their effectiveness in the African theater."
- 
- SAF_RWK_retaking_saf:0 "Retaking South Africa"
- SAF_RWK_retaking_saf_desc:0 "South Africa's government is in exile and is planning to retake the country from Axis control. This focus represents the first steps in that effort, including building up forces and securing support from allies."
- SAF_RWK_country_reinstated:0 "Country Reinstated"
- SAF_RWK_country_reinstated_desc:0 "South Africa's government has been reinstated after successfully retaking the country from Axis control. The focus now shifts to rebuilding the nation and its institutions after the turmoil of occupation and war."
- SAF_RWK_help_from_allies:0 "Help From Allies"
- SAF_RWK_help_from_allies_desc:0 "South Africa is receiving assistance from its allies to help rebuild the country and its military after the disruptions of occupation and war."
- SAF_RWK_payback_time:0 "Payback Time"
- SAF_RWK_payback_time_desc:0 "South Africa is seeking payback against the Axis powers for the occupation and turmoil they caused. This focus represents a shift towards a more aggressive posture, including military buildup and potential offensive operations to secure South Africa's interests and punish its enemies."
+ SAF_RWK_capitulated:0 "The Union Falls"
+ SAF_RWK_capitulated_desc:0 "The Union of South Africa has collapsed under Axis pressure. Enemy banners now fly over the veld, and the government has been forced into submission."
 
- #ideas
-    SAF_vehicle_speed_breakthrough_spirit:0 "The Desert Spirit"
-    SAF_vehicle_speed_breakthrough_spirit_desc:0 "The desert is a harsh environment that demands speed and endurance. South African crews are trained to push their vehicles to the limit."
-    SAF_mech_motorized_reduction:0 "Vehicles of The Sand"
-    SAF_mech_motorized_reduction_desc:0 "South African mechanized brigades are restructured to reduce their motorized equipment requirements, allowing them to operate more effectively in the resource-constrained desert environment."
-    SAF_sf_cap:0 "Special Forces Cap"
-    SAF_sf_cap_desc:0 "South Africa's special forces are capped at a certain level to reflect the limited manpower and resources available for elite units in the post-occupation period."
-    SAF_equipment_reduction:0 "Equipment Reduction" 
-    SAF_equipment_reduction_desc:0 "South Africa's military is operating with reduced equipment levels due to the disruptions of occupation and war. This idea reflects the need to make do with less while rebuilding the armed forces."
-    SAF_sf_stats:0 "Special Forces Stats"
-    SAF_sf_stats_desc:0 "South Africa's special forces have improved stats to reflect their elite training and capabilities, even as their overall numbers are limited by the special forces cap."
-    SAF_retaking_homeland:0 "Retaking Homeland"
-    SAF_retaking_homeland_desc:0 "South Africa's government is in exile and is planning to retake the country from Axis control. This idea represents the initial efforts to build up forces and secure support for that effort."
-    SAF_sf_cap_flat:0 "Army Reorganization"
-    SAF_sf_cap_flat_desc:0 "South Africa's special forces cap is set to a flat level to reflect the limited manpower and resources available for elite units in the post-occupation period, regardless of other modifiers or reductions."
+ SAF_RWK_reorganizing_the_army:0 "Reforming the Union Defence Force"
+ SAF_RWK_reorganizing_the_army_desc:0 "With Pretoria in chaos and command shattered, the Union Defence Force must be rebuilt from the ground up. Loyal officers and hardened commandos rally to restore discipline and order."
 
-    SAF_exiled:0 "South African Government In Exile"
-    SAF_IOG_the_government_in_exile_dynamic_desc:0 "South Africa's government is in exile after the occupation by Axis forces. This idea represents the ongoing efforts to maintain a functioning government and plan for the eventual retaking of the country."
-    SAF_exiled_2:0 "Rallying The Exiles"
-    SAF_IOG_the_government_in_exile_dynamic_desc_2:0 "South Africa's government is in exile after the occupation by Axis forces. This idea represents the ongoing efforts to maintain a functioning government and plan for the eventual retaking of the country, including securing support from allies and building up forces."
-    SAF_payback:0 "Payback Against The Axis"
-    SAF_IOG_the_government_in_exile_dynamic_desc_payback:0 "South Africa is seeking payback against the Axis powers for the occupation and turmoil they caused. This idea represents a shift towards a more aggressive posture, including military buildup and potential offensive operations to secure South Africa's interests and punish its enemies."
- #characters
-    SAF_lion_king:0 "The Lion King"
+ SAF_RWK_rebuilding_the_civillian_industry:0 "Rekindling the Home Front"
+ SAF_RWK_rebuilding_the_civillian_industry_desc:0 "From Cape Town’s docks to the mines of the Rand, the civilian economy lies in ruin. A united national effort begins to restore industry, transport, and the lifeblood of the Union."
+
+ SAF_RWK_rebuilding_the_civillian_industry_2:0 "Forging the Union’s Recovery"
+ SAF_RWK_rebuilding_the_civillian_industry_2_desc:0 "The rebuilding continues as factories return to life and supply lines stretch once more across the veld. The Union stands determined to reclaim its economic strength."
+
+ SAF_RWK_rebuilding_the_military_industry:0 "Rearming the Union"
+ SAF_RWK_rebuilding_the_military_industry_desc:0 "South Africa’s war industry has been crippled. Workshops, arsenals, and training grounds must be restored to supply the Union Defence Force once more."
+
+ SAF_RWK_rebuilding_the_military_industry_2:0 "Arsenal of the South"
+ SAF_RWK_rebuilding_the_military_industry_2_desc:0 "With renewed industry and determination, South Africa transforms into a vital arsenal, producing arms and equipment to drive back its enemies across the continent."
+
+ SAF_RWK_special_forces:0 "Commando Revival"
+ SAF_RWK_special_forces_desc:0 "Drawing on the legacy of the Boer commandos, elite units are reformed to strike swiftly across the African bush, masters of mobility and surprise."
+
+ SAF_RWK_improve_doctrine:0 "Adapt the Veld Doctrine"
+ SAF_RWK_improve_doctrine_desc:0 "Modern war demands new thinking. South Africa refines its doctrine to blend mechanized warfare with the harsh realities of the African terrain."
+
+ SAF_RWK_copy_uk:0 "British Military Tradition"
+ SAF_RWK_copy_uk_desc:0 "The Union looks to Britain, adopting tried and tested command structures and doctrine to rebuild a disciplined and coordinated fighting force."
+
+ SAF_RWK_copy_germany:0 "Study Axis Tactics"
+ SAF_RWK_copy_germany_desc:0 "Lessons are drawn from the enemy itself. German methods of maneuver warfare are studied to strengthen South Africa’s ability to fight and survive."
+
+ SAF_RWK_improve_special_forces:0 "Elite Commando Training"
+ SAF_RWK_improve_special_forces_desc:0 "South Africa’s commandos are honed into elite fighters, equipped and trained for deep raids, reconnaissance, and swift strikes across the African theater."
+
+ SAF_RWK_retaking_saf:0 "Liberation of the Union"
+ SAF_RWK_retaking_saf_desc:0 "From exile, the rightful government prepares to reclaim South Africa. Forces gather, allies are courted, and plans are laid to drive the Axis from African soil."
+
+ SAF_RWK_country_reinstated:0 "The Union Restored"
+ SAF_RWK_country_reinstated_desc:0 "The Union of South Africa stands free once more. With the enemy expelled, the nation turns to rebuilding its शासन, unity, and future after years of occupation."
+
+ SAF_RWK_help_from_allies:0 "Commonwealth Assistance"
+ SAF_RWK_help_from_allies_desc:0 "Aid flows in from across the Commonwealth and beyond. Supplies, advisors, and matériel help rebuild South Africa’s strength in the wake of war."
+
+ SAF_RWK_payback_time:0 "Vengeance on the Axis"
+ SAF_RWK_payback_time_desc:0 "The scars of occupation run deep. South Africa now turns outward, preparing to strike back against the Axis and reclaim its honor on the battlefield."
+#ideas
+ SAF_vehicle_speed_breakthrough_spirit:0 "The Desert Spirit"
+ SAF_vehicle_speed_breakthrough_spirit_desc:0 "The desert is a harsh environment that demands speed and endurance. South African crews are trained to push their vehicles to the limit."
+ SAF_mech_motorized_reduction:0 "Vehicles of The Sand"
+ SAF_mech_motorized_reduction_desc:0 "South African mechanized brigades are restructured to reduce their motorized equipment requirements, allowing them to operate more effectively in the resource-constrained desert environment."
+ SAF_sf_cap:0 "Special Forces Cap"
+ SAF_sf_cap_desc:0 "South Africa's special forces are capped at a certain level to reflect the limited manpower and resources available for elite units in the post-occupation period."
+ SAF_equipment_reduction:0 "Equipment Reduction" 
+ SAF_equipment_reduction_desc:0 "South Africa's military is operating with reduced equipment levels due to the disruptions of occupation and war. This idea reflects the need to make do with less while rebuilding the armed forces."
+ SAF_sf_stats:0 "Special Forces Stats"
+ SAF_sf_stats_desc:0 "South Africa's special forces have improved stats to reflect their elite training and capabilities, even as their overall numbers are limited by the special forces cap."
+ SAF_retaking_homeland:0 "Retaking Homeland"
+ SAF_retaking_homeland_desc:0 "South Africa's government is in exile and is planning to retake the country from Axis control. This idea represents the initial efforts to build up forces and secure support for that effort."
+ SAF_sf_cap_flat:0 "Army Reorganization"
+ SAF_sf_cap_flat_desc:0 "South Africa's special forces cap is set to a flat level to reflect the limited manpower and resources available for elite units in the post-occupation period, regardless of other modifiers or reductions."
+
+ SAF_exiled:0 "South African Government In Exile"
+ SAF_IOG_the_government_in_exile_dynamic_desc:0 "South Africa's government is in exile after the occupation by Axis forces. This idea represents the ongoing efforts to maintain a functioning government and plan for the eventual retaking of the country."
+ SAF_exiled_2:0 "Rallying The Exiles"
+ SAF_IOG_the_government_in_exile_dynamic_desc_2:0 "South Africa's government is in exile after the occupation by Axis forces. This idea represents the ongoing efforts to maintain a functioning government and plan for the eventual retaking of the country, including securing support from allies and building up forces."
+ SAF_payback:0 "Payback Against The Axis"
+ SAF_IOG_the_government_in_exile_dynamic_desc_payback:0 "South Africa is seeking payback against the Axis powers for the occupation and turmoil they caused. This idea represents a shift towards a more aggressive posture, including military buildup and potential offensive operations to secure South Africa's interests and punish its enemies."
+#characters
+ SAF_lion_king:0 "The Lion King"
