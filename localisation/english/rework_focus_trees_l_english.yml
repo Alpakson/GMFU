@@ -265,26 +265,35 @@
  SAF_RWK_payback_time:0 "Vengeance on the Axis"
  SAF_RWK_payback_time_desc:0 "The scars of occupation run deep. South Africa now turns outward, preparing to strike back against the Axis and reclaim its honor on the battlefield."
 #ideas
- SAF_vehicle_speed_breakthrough_spirit:0 "The Desert Spirit"
- SAF_vehicle_speed_breakthrough_spirit_desc:0 "The desert is a harsh environment that demands speed and endurance. South African crews are trained to push their vehicles to the limit."
- SAF_mech_motorized_reduction:0 "Vehicles of The Sand"
- SAF_mech_motorized_reduction_desc:0 "South African mechanized brigades are restructured to reduce their motorized equipment requirements, allowing them to operate more effectively in the resource-constrained desert environment."
- SAF_sf_cap:0 "Special Forces Cap"
- SAF_sf_cap_desc:0 "South Africa's special forces are capped at a certain level to reflect the limited manpower and resources available for elite units in the post-occupation period."
- SAF_equipment_reduction:0 "Equipment Reduction" 
- SAF_equipment_reduction_desc:0 "South Africa's military is operating with reduced equipment levels due to the disruptions of occupation and war. This idea reflects the need to make do with less while rebuilding the armed forces."
- SAF_sf_stats:0 "Special Forces Stats"
- SAF_sf_stats_desc:0 "South Africa's special forces have improved stats to reflect their elite training and capabilities, even as their overall numbers are limited by the special forces cap."
- SAF_retaking_homeland:0 "Retaking Homeland"
- SAF_retaking_homeland_desc:0 "South Africa's government is in exile and is planning to retake the country from Axis control. This idea represents the initial efforts to build up forces and secure support for that effort."
- SAF_sf_cap_flat:0 "Army Reorganization"
- SAF_sf_cap_flat_desc:0 "South Africa's special forces cap is set to a flat level to reflect the limited manpower and resources available for elite units in the post-occupation period, regardless of other modifiers or reductions."
+#ideas
+ SAF_vehicle_speed_breakthrough_spirit:0 "Spirit of the Veld"
+ SAF_vehicle_speed_breakthrough_spirit_desc:0 "Across the burning sands and open veld, South African crews learn to master speed and endurance. Their vehicles are driven to the brink, striking fast before the enemy can react."
 
- SAF_exiled:0 "South African Government In Exile"
- SAF_IOG_the_government_in_exile_dynamic_desc:0 "South Africa's government is in exile after the occupation by Axis forces. This idea represents the ongoing efforts to maintain a functioning government and plan for the eventual retaking of the country."
- SAF_exiled_2:0 "Rallying The Exiles"
- SAF_IOG_the_government_in_exile_dynamic_desc_2:0 "South Africa's government is in exile after the occupation by Axis forces. This idea represents the ongoing efforts to maintain a functioning government and plan for the eventual retaking of the country, including securing support from allies and building up forces."
- SAF_payback:0 "Payback Against The Axis"
- SAF_IOG_the_government_in_exile_dynamic_desc_payback:0 "South Africa is seeking payback against the Axis powers for the occupation and turmoil they caused. This idea represents a shift towards a more aggressive posture, including military buildup and potential offensive operations to secure South Africa's interests and punish its enemies."
+ SAF_mech_motorized_reduction:0 "Machines of the Dust"
+ SAF_mech_motorized_reduction_desc:0 "In the harsh African theater, every drop of fuel and every vehicle counts. South African formations are adapted to fight lean, relying on mobility and ingenuity over excess machinery."
+
+ SAF_sf_cap:0 "Limited Commando Corps"
+ SAF_sf_cap_desc:0 "The legacy of the commandos endures, but resources are scarce. Only a select number of elite units can be maintained, each one carefully chosen and highly trained."
+
+ SAF_equipment_reduction:0 "Scarcity of Arms"
+ SAF_equipment_reduction_desc:0 "Years of occupation have left the Union short on weapons and matériel. Soldiers must fight with what they have, making every rifle and round count."
+
+ SAF_sf_stats:0 "Hardened Commandos"
+ SAF_sf_stats_desc:0 "Though few in number, South Africa’s commandos are veterans of the bush and desert. Their skill, discipline, and resilience make them a formidable force in any engagement."
+
+ SAF_retaking_homeland:0 "Liberation of the Homeland"
+ SAF_retaking_homeland_desc:0 "From foreign shores, the exiled leadership prepares for the great return. Plans are laid, troops are gathered, and the dream of a free South Africa burns bright."
+
+ SAF_sf_cap_flat:0 "Reorganization of the Commandos"
+ SAF_sf_cap_flat_desc:0 "The structure of the Union Defence Force is reshaped, placing strict limits on elite formations. This ensures that scarce manpower is spread where it is needed most."
+
+ SAF_exiled:0 "Union Government in Exile"
+ SAF_IOG_the_government_in_exile_dynamic_desc:0 "Driven from their homeland, South Africa’s leaders continue the struggle abroad. From distant capitals, they maintain authority and prepare for the day of liberation."
+
+ SAF_exiled_2:0 "Exiles United"
+ SAF_IOG_the_government_in_exile_dynamic_desc_2:0 "Across the Commonwealth and beyond, South African exiles rally to the cause. Support is gathered, forces are trained, and the will to reclaim the Union grows stronger."
+
+ SAF_payback:0 "Reckoning with the Axis"
+ SAF_IOG_the_government_in_exile_dynamic_desc_payback:0 "The occupation will not go unanswered. South Africa steels itself for vengeance, preparing to strike back and restore its honor through force of arms."
 #characters
  SAF_lion_king:0 "The Lion King"
