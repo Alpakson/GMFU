@@ -2270,6 +2270,7 @@
 				}
 
 			}
+			set_country_flag = FRA_amx_unlocked
 		}
 	}
 	focus = {

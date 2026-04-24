@@ -156,7 +156,7 @@ FRA_amx_organization = {
 			limit = {
 				FROM = { original_tag = FRA } 
 			}
-			FROM = { has_completed_focus = FRA_form_the_state_arsenals }
+			FROM = { has_country_flag = FRA_amx_unlocked }
 		}
 	}
 }
