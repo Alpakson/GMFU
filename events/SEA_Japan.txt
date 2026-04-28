@@ -14561,59 +14561,59 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = {
-		name = SEA_border_incidents_events.1.a
-		ai_chance = {
-			base = 100
-		}
-
-		IF = {
-			limit = {
-				MAN = {
-					is_subject = no 
-				}
-			}
-			MAN = {
-				country_event = {
-					id = SEA_border_incidents_events.2
-					hours = 6 
-				}
-			}
-		}
-		ELSE = {
-			MAN = {
-				OVERLORD = {
-					country_event = {
-						id = SEA_border_incidents_events.2
-						hours = 6 
-					}
-				}
-			}
-		}
-
-		custom_effect_tooltip = generic_skip_one_line_tt
-
-		custom_effect_tooltip = if_they_back_down_or_lose_a_border_conflict_tt 
-
-		effect_tooltip = {
-			add_ideas = MON_income_from_hulunbuir_idea 
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			761 = {
-				add_core_of = MON
-			}
-		}
-
-	}
+#	option = {
+#		name = SEA_border_incidents_events.1.a
+#		ai_chance = {
+#			base = 100
+#		}
+#
+#		IF = {
+#			limit = {
+#				MAN = {
+#					is_subject = no 
+#				}
+#			}
+#			MAN = {
+#				country_event = {
+#					id = SEA_border_incidents_events.2
+#					hours = 6 
+#				}
+#			}
+#		}
+#		ELSE = {
+#			MAN = {
+#				OVERLORD = {
+#					country_event = {
+#						id = SEA_border_incidents_events.2
+#						hours = 6 
+#					}
+#				}
+#			}
+#		}
+#
+#		custom_effect_tooltip = generic_skip_one_line_tt
+#
+#		custom_effect_tooltip = if_they_back_down_or_lose_a_border_conflict_tt 
+#
+#		effect_tooltip = {
+#			add_ideas = MON_income_from_hulunbuir_idea 
+#
+#			custom_effect_tooltip = generic_skip_one_line_tt
+#
+#			761 = {
+#				add_core_of = MON
+#			}
+#		}
+#
+#	}
 	option = {
 		name = SEA_border_incidents_events.1.b
 		ai_chance = {
-			base = 0
+			base = 1
 		}
 		
-		add_war_support = -0.05
-		add_political_power = -25 
+		#add_war_support = -0.05
+		#add_political_power = -25 
 
 	}
 }
