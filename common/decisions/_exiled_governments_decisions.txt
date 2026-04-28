@@ -33,7 +33,7 @@ governments_in_exile = {
 		}
 
 		ai_will_do = {
-			base = 10
+			base = 0
 		}
 	}
 

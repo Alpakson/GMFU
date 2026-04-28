@@ -14721,6 +14721,14 @@ country_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+        OR = {
+            tag = JAP
+            tag = MAN
+			tag = MON
+        }
+    }
+
 	option = {
 		name = SEA_border_incidents_events.5.a
 		trigger = {
@@ -14760,6 +14768,14 @@ country_event = {
 	picture = GFX_report_event_japanese_soldiers_03
 
 	is_triggered_only = yes
+
+	 trigger = {
+        OR = {
+            tag = JAP
+            tag = MAN
+			tag = MON
+        }
+    }
 
 	option = {
 		name = SEA_border_incidents_events.6.a
@@ -14803,6 +14819,14 @@ country_event = {
 	picture = GFX_report_event_japanese_army_parade
 
 	is_triggered_only = yes
+
+	trigger = {
+        OR = {
+            tag = JAP
+            tag = MAN
+			tag = MON
+        }
+    }
 
 	option = {
 		name = SEA_border_incidents_events.7.a
